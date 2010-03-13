@@ -1,0 +1,9 @@
+{
+  "name": "chrome-new-tab-or-navigate",
+  "version": "0.1",
+  "description": "Alters the behaviour of opening a new tab to help reduce duplicate tabs (tabs displaying the same URL)",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs"
+  ]
+}
