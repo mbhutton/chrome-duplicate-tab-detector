@@ -1,6 +1,6 @@
-chrome-new-tab-or-navigate
+chrome-duplicate-tab-detector
 
-chrome-new-tab-or-navigate is an extension for Google Chrome which alters the behaviour of opening a new tab to help reduce duplicate tabs (tabs displaying the same URL).
+chrome-duplicate-tab-detector is an extension for Google Chrome which alters the behaviour of opening a new tab to help reduce duplicate tabs (tabs displaying the same URL).
 
 When opening a new tab, and a duplicate tab exists in the same window, it closes the new tab and selects the duplicate tab. If there's no duplicate, the new tab is opened as usual.
 
