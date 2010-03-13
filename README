@@ -8,5 +8,6 @@ Notes and limitations:
  * Only applies to new tabs--navigation within a single tab is not affected.
  * Tabs in other windows are ignored.
  * Does not handle redirects--the requested URL must match the duplicated page URL exactly to be considered a duplicate.
+ * Does not detect new tabs which are opened via javascript (e.g. via bookmarklets)
  * Contains no icons--submissions welcome!
  * Does not auto-update
