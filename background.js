@@ -1,7 +1,7 @@
 chrome.tabs.onCreated.addListener(function(newTab) {
-    chrome.tabs.query({windowId: newTab.windowId}, function(tabs) {
-        var duplicateTab = null;
-        tabs.forEach(function(otherTab) {
+    chrome.tabs.query({windowId: newTab.windowId}).then(tabs => {
+        let duplicateTab = null;
+        tabs.forEach(otherTab => {
             if (otherTab.id !== newTab.id && otherTab.url === newTab.url) {
                 duplicateTab = otherTab;
             }
